@@ -31,7 +31,7 @@ public class Solver {
         try (PrintWriter out = new PrintWriter(new FileWriter(output))) {
             if (solution == null) {
                 System.out.println("No solution found within depth " + maxDepth);
-            } else {z
+            } else {
                 System.out.println("Solution: " + solution);
                 out.println(solution);
             }
